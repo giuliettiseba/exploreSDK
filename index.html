@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8" />
+    <title>Your page title here :)</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/skeleton.css" />
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <script src="lib/js/sdkLoader.js"></script>
+    <script src="lib/js/application.js"></script>
+    <script src="lib/js/loginManager.js"></script>
+    <script src="lib/js/jquery-3.6.0.js"></script>
+
+    <link href="jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet" />
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+  </head>
+  <body>
+    <section id="login-form-container"></section>
+    <script type="text/javascript" src="exploreSDK.js"></script>
+
+    <div class="container">
+      <div class="row">
+        <div class="seven columns" style="margin-top: 5%">
+          <h4>Basic Page</h4>
+          <p>
+            This index.html page is a placeholder with the CSS, font and
+            favicon. It's just waiting for you to add some content! If you need
+            some help hit up the
+          </p>
+
+          <div class="toggle-wrap">
+            <div class="toggles" id="alarm_toggler">
+              <label for="toggle_alarm_new">New</label>
+              <input
+                class="toggle brand-toggle"
+                type="checkbox"
+                name="New"
+                id="toggle_alarm_new"
+                checked
+              />
+              <label for="toggle_alarm_in_progress">In progress</label>
+              <input
+                class="toggle brand-toggle"
+                type="checkbox"
+                name="In progress"
+                id="toggle_alarm_in_progress"
+              /><label for="toggle_alarm_on_hold">On hold</label>
+              <input
+                class="toggle brand-toggle"
+                type="checkbox"
+                name="On hold"
+                id="toggle_alarm_on_hold"
+              />
+              <label for="toggle_alarm_closed">Closed</label>
+              <input
+                class="toggle brand-toggle"
+                type="checkbox"
+                name="Closed"
+                id="toggle_alarm_closed"
+              />
+            </div>
+          </div>
+
+          <div id="accordion"></div>
+
+          <!--<table id="myTable" class="u-full-width">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>State</th>
+                <th>Timestamp</th>
+                <th>Source</th>
+                <th>Message</th>
+                <th>Priority</th>
+                <th>CameraId</th>
+                <th>AssignedTo</th>
+                <th>Description</th>
+                <th>StateName</th>
+                <th>PriorityName</th>
+                <th>SourceId</th>
+                <th>MessageId</th>
+                <th>Items</th>
+                <th>Thumbnail</th>
+              </tr>
+            </thead>
+            <tbody id="testBody"></tbody>
+          </table>
+      -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
